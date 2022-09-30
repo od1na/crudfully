@@ -98,7 +98,7 @@ class Crud2 extends Component {
                                                     <div>{value.job}</div>
                                                     <div className="btns fixed1">
                                                         <div className="fixed3">
-                                                        <button onClick={() => deleteUser(value.id)}>Delete</button>
+                                                        <button onClick={() => deleteUser(value.id)}>DElete</button>
                                                             <button onClick={(e) => onEdit(value)}>edit</button>
                                                         </div>
                                                     </div>
