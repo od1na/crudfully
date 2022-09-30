@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0ef8b;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(25, 214, 50, 0.486);
+    border-radius: 25px;
+}
+
+*::selection {
+    background-color: #4400fd;
+    color: white;
+}
+
+.alldiv {
+    max-width: 900px;
+    min-width: 350px;
+    height: 400px;
+    margin: 20px auto;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    transition: .2s;
+    overflow: auto;
+    min-height: 200px;
+    max-height: 500px;
+    height: 500px;
+    box-shadow: 20px 20px  rgba(243, 243, 129, 0.914);
+}
+
+
+
+
+/* ROW */
+
+.row {
+    width: 1000px;
+    display: grid;
+    text-align: center;
+    padding: 25px 0;
+    grid-template-columns: 50px 200px 50px 200px 100px 100px 100px 100px 100px;
+}
+
+.row:hover * {
+    background-color: #F5F5F5;
+
+}
+
+.rowtitle {
+    width: 1040px;
+    font-weight: 900;
+    position: sticky;
+    top: 0;
+    background-color: #F5F5F5;
+    z-index: 99999;
+}
+
+.rowtitle * {
+    background-color: #faf9d7 !important;
+}
+
+/* BUTTONS */
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(134, 14, 116);
+    background-color: #e0ef8b;
+    width: 50px;
+    height: 20px;
+}
+
+button> :hover {
+    color: rgb(134,14,116);
+}
+
+
+
+.btnedit {
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr !important;
+    gap: 2px;
+    font-size: 15px;
+    position: relative;
+}
+
+
+/* FIXED */
+
+.fixed2 {
+    position: sticky;
+    left: 0px;
+    top: 10;
+    background-color: white;
+}
+.fixed1btns{
+    position: sticky;
+    right: 0px;
+    top: 10;
+    background-color: white;
+}
+.fixed1{
+    position: sticky;
+    right: 0px;
+    top: 10;
+    background-color: white;
+}
+.fixed3{
+    position: sticky;
+    right: 0px;
+    top: 10;
+    background-color: white;
+}
+
+/* OTHEr */
+
+.idlari {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.data-users {
+    color: #100f0fea;
+    width: 1040px;
+}
+.searchadd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.search{
+    border-radius: 10px;
+    width: 190px;
+    height: 30px;
+    margin-top: 20px;
+}
+.add{
+    border-radius: 20px;
+    width: 90px;
+    height: 20px;
+    margin-top: 20px;
+}
